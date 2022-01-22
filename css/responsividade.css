@@ -1,0 +1,272 @@
+@media only screen and (min-width: 1050px) and (max-width: 1169px) {
+    .conteudo-secundario-titulo {
+        padding: 0 80px 0 80px;
+        padding-bottom: 120px;
+    }
+
+    .conteudo-secundario-paragrafo {
+        margin: 0 50px 0 50px;
+        text-align: center;
+    }
+
+    .conteudo-principal-imagem img {
+        margin-right: 120px;
+    }
+    
+    .conteudo-principal-escrito {
+        margin: 150px 120px;
+    }
+}
+
+@media only screen and (min-width: 866px) and (max-width: 1050px) {
+    .conteudo-principal-imagem img img {
+        width: 225px;
+        height: 225px;
+        border-radius: 100%;
+        margin-right: 100px;
+    }
+
+    .conteudo-principal-escrito {
+        margin: 100px 100px;
+    }
+
+    .conteudo-principal-escrito-titulo h1 {
+        font-size: 40px;
+    }
+
+    button {
+        padding: 10px 20px;
+    }
+
+    .conteudo-secundario-titulo{
+        padding: 0 80px 0 80px;
+        padding-bottom: 120px;
+    }
+
+    .conteudo-secundario-paragrafo {
+        margin: 0 50px 0 50px;
+        text-align: center;
+    }
+
+    h1.conteudo-secundario-titulo {
+        text-align: center;
+        margin: 100px 0 20px 0;
+        font-size: 30px;
+    }
+
+    .projetos {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projetos-cards-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projetos-cards {
+        background-color: #181425;
+        margin: 0 0 20px 0;
+        width: 90%;
+        text-align: start;
+    }
+
+    .projetos-cards:first-child {
+        margin-left: 0px;
+    }
+    
+    .projetos-cards:last-child {
+        margin-right: 0px;
+    }
+
+    .projetos-cards h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 865px) {
+    .conteudo-principal-imagem img {
+        width: 225px;
+        height: 225px;
+        border-radius: 100%;
+        margin-right: 80px;
+    }
+
+    .conteudo-principal-escrito{
+        margin: 100px 80px;
+    }
+
+    .conteudo-principal-escrito-titulo h1 {
+        font-size: 40px;
+    }
+
+    button {
+        padding: 10px 20px;
+    }
+
+    .conteudo-secundario-titulo {
+        padding: 0 80px 0 80px;
+        padding-bottom: 120px;
+    }
+
+    .conteudo-secundario-paragrafo p {
+        margin: 0 50px 0 50px;
+        text-align: center;
+    }
+
+    h1.conteudo-secundario-titulo {
+        text-align: center;
+        margin: 100px 0 20px 0;
+        font-size: 30px;
+    }
+
+    .projetos {
+        
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projetos-cards-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projetos-cards {
+        background-color: #181425;
+        margin: 0 0 20px 0;
+        width: 90%;
+        text-align: start;
+    }
+
+    .projetos-cards:first-child {
+        margin-left: 0px;
+    }
+    
+    .projetos-cards:last-child {
+        margin-right: 0px;
+    }
+
+    .projetos-cards h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 240px) and (max-width: 779px) {
+    nav {
+        display: none;
+        padding: 0px;
+    }
+
+    .conteudo-principal {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    .conteudo-principal-imagem img {
+        border-radius: 100%;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        align-self: center;
+        margin: 50px 10px 0 10px;
+    }
+
+    .conteudo-principal-escrito {
+        align-items: center;
+        justify-content: center;
+        margin: 70px 10px;
+    }
+
+    .conteudo-principal-escrito-titulo h1 {
+        font-size: 40px;
+    }
+
+    .conteudo-secundario {
+        padding: 0 50px 0 50px;
+        padding-bottom: 50px;
+    }
+
+    .conteudo-secundario-paragrafo p {
+        margin: 0 5px 0 5px;
+        text-align: center;
+    }
+
+    h1.conteudo-secundario-titulo {
+        text-align: center;
+        margin: 50px 0 20px 0;
+        font-size: 30px;
+    }
+
+    .projetos {
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .projetos-cards-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projetos-cards {
+        background-color: #181425;
+        margin: 0 0 20px 0;
+        width: 90%;
+        text-align: start;
+    }
+
+    .projetos-cards:first-child {
+        margin-left: 0px;
+    }
+    
+    .projetos-cards:last-child {
+        margin-right: 0px;
+    }
+
+    .skills {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skills-cards-container {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .skills-cards {
+        display: flex;
+        background-color: #181425;
+        margin: 0 0 20px 0;
+        width: 50%;
+    }
+
+    .skills-cards:first-child {
+        margin-left: 0px;
+    }
+    
+    .skills-cards:last-child {
+        margin-right: 0px;
+    }
+
+    .skills-cards h1 {
+        font-size: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        margin: 0 50px 20px 50px;
+        padding: 20px 20px 0 20px;
+        align-items: center;
+    }
+
+    .contato img {
+        width: 20px;
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,43 @@
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: aqua;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Dm Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: azure;
+}
+
+.conteudo-principal-botao {
+    background-color: aqua;
+    width: 143px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Dm Sans', sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+    cursor: pointer;
+    color: black;
+}
+
+.conteudo-principal-imagem {
+    height: 350px;
+}

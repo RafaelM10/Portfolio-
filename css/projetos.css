@@ -1,0 +1,54 @@
+.conteudo-terciario-titulo {
+    text-align: center;
+    color: aqua;
+    font-family: 'Dm Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 55px;
+    margin-bottom: 15px;
+}
+
+.projetos-cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitulo-card{
+    color: azure;
+    font-family: 'Dm Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.paragrafo-card{
+    color: azure;
+    font-family: 'Dm Sans', sans-serif;
+}
+
+.projetos-cards {
+    background-color: #171717;
+    margin: 0 25px 36px 0;
+    height: 168px;
+    width: 360px;
+    border-radius: 5px;
+    padding: 20px 30px;
+    border: 1px solid aqua;
+
+    text-align: start;
+    
+    transition: all 500ms ease-in-out;
+}
+
+.projetos-cards:first-child {
+    margin-left: 50px;
+}
+
+.projetos-cards:last-child {
+    margin-right: 50px;
+}
+
+.projetos-cards:hover {
+    background-color: aqua;
+    cursor: pointer;
+}

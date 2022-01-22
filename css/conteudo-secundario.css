@@ -1,0 +1,23 @@
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.conteudo-secundario-titulo {
+    color: aqua;
+    padding-top: 30px;
+    font-family: 'Dm Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.conteudo-secundario-paragrafo {
+    text-align: center;
+    font-family: 'Dm Sans', sans-serif;
+    font-weight: 150;
+    font-size: 14px;
+    color: azure;
+}

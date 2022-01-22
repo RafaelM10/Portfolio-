@@ -1,0 +1,46 @@
+.skills {
+    margin: 50px;
+    text-align: center;
+    color: aqua;
+    font-family: 'Dm Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.skills-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.skills-cards {
+    background-color: #171717;
+    border: 1px solid aqua;
+    margin-right: 30px;
+    padding: 20px 50px 5px 50px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-cards:last-child {
+    margin-right: 0;
+}
+
+.skills-cards:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.repos {
+    text-align: center;
+    color: azure;
+}
+
+.repos-gh {
+    color: azure;
+    font-family: 'Dm Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
